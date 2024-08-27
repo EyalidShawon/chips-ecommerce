@@ -81,4 +81,167 @@ body{
     padding-left: 100px;
     margin-right: 0;
 }
+.main-hero{
+    width: 50%;
+    margin-top: 100px;
+}
+.main-hero img{
+    height: 500px;
+    width: 500px;
+}
+.flex-hero{
+    display: flex;
+
+}
+.potato-hero img{ 
+    height: 200px;
+    width: 300px;
+    margin-top: 100px;
+    padding-left: 300px;
+}
+.buy-now{
+    display: flex;
+    gap: 20px;
+}
+.star-cls{
+    color: rgb(244, 161, 102);
+}
+.mid-sect{
+    text-align: center;
+    margin-top: 100px;
+}
+.mid-sect p{
+    color: rgb(110, 112, 115);
+}
+.card-cls img{
+    height: 350px;
+    width: 350px;
+    border-radius: 8px;
+    margin-top: 80px;
+}
+.total-card{
+    display: grid;
+    grid-template-columns: 400px 400px 400px ;
+    margin-top: 40px;
+}
+.card-cls p{
+    color: rgb(110, 112, 115);
+}
+.new-btn{
+    text-align: center;
+    margin-top: 50px;
+}
+.more-chips{
+    display: flex;
+}
+.blue-chips img{
+    height: 400px;
+    width: 400px;
+}
+.blue-chips{
+    width: 50%;
+    margin-top: 80px;
+}
+.blue-chips h4{
+    color: rgb(110, 112, 115);
+}
+.another-chips{
+    width: 50%;
+    margin-top: 80px;
+    padding-left: 200px;
+}
+.another-chips img{
+    width: 330px;
+    height:330px;
+
+}
+.another-chips h4{
+    color: rgb(110, 112, 115);
+}
+.chips-cls{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.chips-cls p{
+    color: rgb(110, 112, 115);
+}
+.dash-cls{
+    text-align: center;
+    margin-top: 50px;
+}
+.fa-minus{
+    font-size: 40px;
+    color: rgb(110, 112, 115);
+}
+.dash-cls i:nth-of-type(2){
+color: black;
+}
+
+.store-bg{
+    background-image: linear-gradient(rgba(87, 212, 177, 0.696),rgba(221, 218, 21, 0.786)), url('./assets/images/travel-potato.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.store-bg p{
+    width: 30%;
+    text-align: center;
+}
+.last-mid{
+    display: flex;
+    background-color: rgb(178, 224, 210);
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+.customer-cls{
+    width: 40%;
+    text-align: left;
+    margin-left: 0%;
+    padding-left: 0%;
+    padding-right: 30%;
+}
+.last-img img{
+    height: 300px;
+    width: 400px;
+    border-radius: 8px;
+}
+.at-last{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+.footer-sec img{
+    height: 50px;
+    width: 80px;
+}
+.footer-sec{
+    margin-top: 70px;
+
+}
+.footer-sec p{
+    color: rgb(110, 112, 115);
+}
+.menu-bar{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding-left: 0%;
+    color: rgb(110, 112, 115);
+}
+.last-pic img{
+    height: 350px;
+    width: 400px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
 
